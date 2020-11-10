@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         //setContentView(R.layout.calendar);
         //setContentView(R.layout.relative_view);
         //setContentView(R.layout.constraint_view);
-        setContentView(R.layout.repas);
-        //setContentView(R.layout.meteo);
+        //setContentView(R.layout.repas);
+        setContentView(R.layout.meteo);
 
 
     }

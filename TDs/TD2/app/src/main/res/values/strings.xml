@@ -4,4 +4,12 @@
     <string name="btn1">OK</string>
     <string name="plat_entree">Entrée</string>
     <string name="plat_pricipal">"Plat principal "</string>
+    <string name="fromage">Fromage</string>
+    <string name="fruit">Fruit</string>
+    <string name="midi">Midi</string>
+    <string name="soir">Soir</string>
+    <string name="température">Température</string>
+    <string name="temperature">"Température en °C "</string>
+    <string name="vent">Vitesse du vent (km/h)</string>
+    <string name="Etat_ciel">Etat de ciel</string>
 </resources>

@@ -4,35 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginTop="200dp">
+
         <EditText
             android:id="@+id/entree"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:hint="@string/plat_entree"/>
+            android:hint="@string/plat_entree"
+            tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/plat_principal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:hint="@string/plat_pricipal"/>
+            android:hint="@string/plat_pricipal"
+            tools:ignore="MissingConstraints" />
 
         <CheckBox
             android:id="@+id/fromage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/fromage"
             tools:ignore="MissingConstraints" />
 
         <CheckBox
             android:id="@+id/fruit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/fruit"
             tools:ignore="MissingConstraints" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -42,34 +48,39 @@
                 android:id="@+id/midi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@string/midi"
                 tools:ignore="MissingConstraints" />
 
             <RadioButton
                 android:id="@+id/soir"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@string/soir"
                 tools:ignore="MissingConstraints" />
 
         </RadioGroup>
+
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
             <Button
                 android:id="@+id/valider"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Valider"
                 tools:ignore="MissingConstraints" />
 
             <Button
                 android:id="@+id/annuler"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Annuler"
                 tools:ignore="MissingConstraints" />
         </LinearLayout>
 
     </LinearLayout>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
