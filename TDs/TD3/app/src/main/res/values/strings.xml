@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">TD3</string>
     <string name="lancer" />
+    <string name="Exercice3">exoo3</string>
+    <string name="Exercice2">exoo2</string>
+    <string name="Exercice1">exoo1</string>
+    <string name="exoo1">Exercice 1</string>
+    <string name="Exoo2">Exercice 2</string>
+    <string name="Exoo3">Exercice 3</string>
 </resources>
