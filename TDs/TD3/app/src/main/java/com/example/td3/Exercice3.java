@@ -18,7 +18,7 @@ public class Exercice3 extends AppCompatActivity {
         setContentView(R.layout.activity_exercice3);
 
         // récuperer l'objet button
-        Button rollButton = (Button) findViewById(R.id.lancer);
+        Button rollButton = (Button) findViewById(R.id.lancer3);
         rollButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
@@ -28,10 +28,10 @@ public class Exercice3 extends AppCompatActivity {
                 // --------- Dé 1 --------------------
                 // génerer un nombre au hazard
                 int random1 = new Random().nextInt((nbfaces - 1) + 1) + 1;
-                TextView result1 = (TextView) findViewById(R.id.result4);
+                TextView result4 = (TextView) findViewById(R.id.result4);
 
                 // convertire le nombre entier en string pour l'afficher dans la zone de textView
-                result1.setText(Integer.toString(random1));
+                result4.setText(Integer.toString(random1));
 
             }
         });
