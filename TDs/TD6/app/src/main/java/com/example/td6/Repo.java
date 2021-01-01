@@ -6,6 +6,10 @@ public class Repo {
     private String full_name;
     private String html_url;
 
+    //On peut renommer les variables avec la notation suivante
+    //@SerializedName("full_name")
+    //private String fullName;
+
     public int getId() {
         return id;
     }

@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //fournir notre interface à un objet Retrofit.Builder qui va nous retourner une implémentation de notre webservice
         GithubService githubService = new Retrofit.Builder()
                 .baseUrl(GithubService.ENDPOINT)
                 .addConverterFactory(GsonConverterFactory.create())
