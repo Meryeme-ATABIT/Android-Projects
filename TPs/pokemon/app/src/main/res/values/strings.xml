@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">pokemon</string>
+    <string name="description_du_pockemon">ici c\'est la description du pockemon</string>
 </resources>
