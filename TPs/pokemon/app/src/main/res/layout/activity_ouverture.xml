@@ -4,6 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Ouverture">
+    tools:context=".views.Ouverture"
+    android:background="@color/background">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/start_animation"
+        android:layout_width="313dp"
+        android:layout_height="73dp"
+
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66"
+
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="pikachu.json"
+        app:lottie_loop="true"
+        app:lottie_speed="1"
+        tools:ignore="MissingClass" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
