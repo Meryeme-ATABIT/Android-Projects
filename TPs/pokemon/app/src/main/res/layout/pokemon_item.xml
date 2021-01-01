@@ -5,7 +5,7 @@
     android:layout_height="wrap_content">
     <!-- Pokemon Item -->
     <ImageButton
-        android:id="@+id/item_pokemon_avatar"
+        android:id="@+id/pokemon_avatar"
         android:layout_width= "80dp"
         android:layout_height="60dp"
         android:background="#FFFFFF"

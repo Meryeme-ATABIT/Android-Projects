@@ -46,7 +46,7 @@ public class PokemonAdapter extends Adapter<PokemonAdapter.ViewHolder> {
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            pokemonAvatar = itemView.findViewById(R.id.item_pokemon_avatar);
+            pokemonAvatar = itemView.findViewById(R.id.pokemon_avatar);
         }
     }
 }
