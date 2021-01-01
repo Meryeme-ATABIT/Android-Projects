@@ -11,7 +11,7 @@ import android.os.Bundle;
 import com.airbnb.lottie.LottieAnimationView;
 import com.example.pokemon.R;
 
-public class Ouverture extends AppCompatActivity {
+public class OuvertureActivity extends AppCompatActivity {
 
 
     private LottieAnimationView start_animation;
@@ -22,7 +22,7 @@ public class Ouverture extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ouverture);
 
-       //  Animation de l'ouverture
+        //  Animation de l'ouverture
         start_animation = findViewById(R.id.start_animation);
 
         start_animation.playAnimation();
