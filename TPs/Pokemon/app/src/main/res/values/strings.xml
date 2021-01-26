@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">"Pokémon"</string>
+    <string name="Tab_1">Gen 1</string>
+    <string name="Tab_2">Gen 2</string>
+    <string name="Tab_3">Gen 3</string>
+    <string name="Tab_4">Gen 4</string>
+    <string name="Tab_5">Gen 5</string>
+    <string name="Tab_6">Gen 6</string>
+    <string name="Tab_7">Gen 7</string>
+    <string name="Tab_8">Gen 8</string>
+    <string name="title_activity_loading_page">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_description">Description</string>
+    <string name="title_evolution">Evolutions</string>
+    <string name="current_pokemon">0</string>
+</resources>
